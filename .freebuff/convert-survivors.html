@@ -1,0 +1,39 @@
+<!doctype html><html><head><script type="importmap">{"imports":{"three":"../vendor/three/build/three.module.js","three/addons/":"../vendor/three/examples/jsm/"}}</script></head><body><pre id="status">Converting…</pre><script type="module">
+import * as THREE from 'three';
+import {FBXLoader} from 'three/addons/loaders/FBXLoader.js';
+import {GLTFExporter} from 'three/addons/exporters/GLTFExporter.js';
+const loader=new FBXLoader(),exporter=new GLTFExporter();
+window.outputs={};
+function base64(buffer){let str='';for(const byte of new Uint8Array(buffer))str+=String.fromCharCode(byte);return btoa(str);}
+async function output(id,model,animations=[]){const buf=await exporter.parseAsync(model,{binary:true,animations});outputs[id]=base64(buf);}
+try {
+ const model=await loader.loadAsync('./downloads/survivors/Model/characterMedium.fbx');
+ const clips=[];for(const key of ['idle','run']){const animation=await loader.loadAsync('./downloads/survivors/Animations/'+key+'.fbx');for(const clip of animation.animations){clip.name=key;clips.push(clip);}}
+ const texture=await new THREE.TextureLoader().loadAsync('./downloads/survivors/Skins/survivorMaleB.png');texture.colorSpace=THREE.SRGBColorSpace;
+ model.traverse(o=>{if(o.isMesh){o.material=new THREE.MeshStandardMaterial({map:texture,roughness:.95});}});
+ await output('survivor',model,clips);
+ const zombie=await new THREE.TextureLoader().loadAsync('./downloads/survivors/Skins/zombieA.png');zombie.colorSpace=THREE.SRGBColorSpace;
+ model.traverse(o=>{if(o.isMesh){o.material=new THREE.MeshStandardMaterial({map:zombie,color:0xa8a594,roughness:1});}});
+ await output('husk',model,clips);
+ // Original recurved ash bow with wrapped handle, taut string and nocked arrow.
+ const bow=new THREE.Group(),wood=new THREE.MeshStandardMaterial({color:0x67503a,roughness:.9}),wrap=new THREE.MeshStandardMaterial({color:0x8a826b,roughness:1});
+ const curve=new THREE.CatmullRomCurve3([new THREE.Vector3(0,-.65,0),new THREE.Vector3(.16,-.45,0),new THREE.Vector3(.24,0,0),new THREE.Vector3(.16,.45,0),new THREE.Vector3(0,.65,0)]);
+ bow.add(new THREE.Mesh(new THREE.TubeGeometry(curve,24,.025,8,false),wood));
+ for(let i=0;i<9;i++){const band=new THREE.Mesh(new THREE.TorusGeometry(.03,.008,5,10),wrap);band.rotation.x=Math.PI/2;band.position.set(.24,(i-4)*.018,0);bow.add(band);}
+ const string=new THREE.Mesh(new THREE.CylinderGeometry(.003,.003,1.3,4),wrap);bow.add(string);
+ await output('bow',bow);
+ const meat=new THREE.Group(),flesh=new THREE.MeshStandardMaterial({color:0x8d5149,roughness:.92}),bone=new THREE.MeshStandardMaterial({color:0xc3b69a,roughness:.9});
+ const cut=new THREE.Mesh(new THREE.SphereGeometry(.18,12,8),flesh);cut.scale.set(1.5,.55,1);meat.add(cut);
+ const joint=new THREE.Mesh(new THREE.CylinderGeometry(.045,.05,.35,8),bone);joint.rotation.z=1.2;joint.position.x=.16;meat.add(joint);
+ await output('meat-loot',meat);
+ const core=new THREE.Group(),gold=new THREE.MeshStandardMaterial({color:0xb99b59,roughness:.4,metalness:.7}),pearl=new THREE.MeshStandardMaterial({color:0xd9cfaf,roughness:.22,metalness:.3,emissive:0x715326,emissiveIntensity:.3});
+ core.add(new THREE.Mesh(new THREE.IcosahedronGeometry(.16,2),pearl));
+ for(let i=0;i<3;i++){const ring=new THREE.Mesh(new THREE.TorusGeometry(.23,.022,6,20),gold);ring.rotation.set(i*.9,i*.8,0);core.add(ring);}
+ await output('pearl-core',core);
+ const hide=new THREE.Group(),leather=new THREE.MeshStandardMaterial({color:0x8b7858,roughness:1,side:THREE.DoubleSide});const shape=new THREE.Shape();shape.moveTo(-.3,-.2);shape.lineTo(-.18,-.1);shape.lineTo(-.28,.16);shape.lineTo(-.1,.12);shape.lineTo(0,.25);shape.lineTo(.12,.12);shape.lineTo(.28,.18);shape.lineTo(.22,-.1);shape.lineTo(.33,-.22);shape.lineTo(.1,-.17);shape.lineTo(-.1,-.25);shape.closePath();const skin=new THREE.Mesh(new THREE.ExtrudeGeometry(shape,{depth:.015,bevelEnabled:true,bevelSize:.015,bevelThickness:.015,bevelSegments:2,steps:1}),leather);skin.rotation.x=-Math.PI/2;hide.add(skin);await output('hide-loot',hide);
+ const fibers=new THREE.Group(),cloth=new THREE.MeshStandardMaterial({color:0x9d9981,roughness:1});for(let i=0;i<3;i++){const roll=new THREE.Mesh(new THREE.CylinderGeometry(.07,.07,.28,10),cloth);roll.rotation.z=Math.PI/2;roll.position.set(0,i*.07,i*.045);fibers.add(roll);}await output('fiber-loot',fibers);
+ window.probe={clips:clips.map(c=>({name:c.name,tracks:c.tracks.map(t=>t.name).slice(0,5)})),bones:[]};model.traverse(o=>{if(o.isBone)probe.bones.push(o.name);});
+ for(const[id,data]of Object.entries(outputs)){const bytes=Uint8Array.from(atob(data),c=>c.charCodeAt(0));const r=await fetch('http://127.0.0.1:8091/'+id,{method:'POST',body:bytes});if(!r.ok)throw Error('Receiver '+r.status);}
+ window.done=true;document.querySelector('#status').textContent=JSON.stringify(probe);
+}catch(e){window.error=e.stack;document.querySelector('#status').textContent=e.stack;}
+</script></body></html>

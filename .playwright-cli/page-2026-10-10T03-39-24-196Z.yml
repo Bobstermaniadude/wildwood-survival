@@ -1,0 +1,170 @@
+- generic [active] [ref=e1]:
+  - link "Get Kenney Game Assets All-in-1 to download everything at once, plus free updates!" [ref=e2] [cursor=pointer]:
+    - /url: https://kenney.itch.io/kenney-game-assets
+    - img [ref=e3]
+    - text: Get Kenney Game Assets All-in-1 to download
+    - emphasis [ref=e4]: everything
+    - text: at once, plus free updates!
+  - generic [ref=e6]:
+    - generic:
+      - list:
+        - listitem [ref=e7]:
+          - link [ref=e8] [cursor=pointer]:
+            - /url: https://kenney.nl
+            - img [ref=e9]
+        - generic:
+          - listitem [ref=e10]:
+            - link "Games" [ref=e11] [cursor=pointer]:
+              - /url: https://kenney.nl/games
+          - listitem [ref=e12]:
+            - link "Tools" [ref=e13] [cursor=pointer]:
+              - /url: https://kenney.nl/tools
+          - listitem [ref=e14]:
+            - link "Assets" [ref=e15] [cursor=pointer]:
+              - /url: https://kenney.nl/assets
+          - listitem [ref=e16]:
+            - link "Starter Kits" [ref=e17] [cursor=pointer]:
+              - /url: https://kenney.nl/starter-kits
+    - generic:
+      - list:
+        - listitem [ref=e18]:
+          - link [ref=e19] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e20]
+        - listitem [ref=e21]:
+          - link "Donate" [ref=e22] [cursor=pointer]:
+            - /url: https://kenney.nl/donate
+    - generic:
+      - link "×" [ref=e23] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - generic:
+        - link "Games" [ref=e24] [cursor=pointer]:
+          - /url: https://kenney.nl/games
+        - link "Tools" [ref=e25] [cursor=pointer]:
+          - /url: https://kenney.nl/tools
+        - link "Assets" [ref=e26] [cursor=pointer]:
+          - /url: https://kenney.nl/assets
+        - link "Starter Kits" [ref=e27] [cursor=pointer]:
+          - /url: https://kenney.nl/starter-kits
+      - separator [ref=e28]
+      - generic:
+        - link "Support" [ref=e29] [cursor=pointer]:
+          - /url: https://kenney.nl/support
+        - link "Knowledge Base" [ref=e30] [cursor=pointer]:
+          - /url: https://kenney.nl/knowledge-base
+        - link "Donate" [ref=e31] [cursor=pointer]:
+          - /url: https://kenney.nl/donate
+      - separator [ref=e32]
+      - link [ref=e33] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e34]
+  - generic [ref=e35]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - heading "Animated Characters Survivors" [level=1] [ref=e40]
+        - paragraph
+        - table [ref=e41]:
+          - rowgroup [ref=e42]:
+            - row "Tags character zombie survivor survival" [ref=e43]:
+              - cell "Tags" [ref=e44]
+              - cell "character zombie survivor survival" [ref=e45]:
+                - link "character" [ref=e46] [cursor=pointer]:
+                  - /url: https://kenney.nl/assets/tag:character
+                - link "zombie" [ref=e47] [cursor=pointer]:
+                  - /url: https://kenney.nl/assets/tag:zombie
+                - link "survivor" [ref=e48] [cursor=pointer]:
+                  - /url: https://kenney.nl/assets/tag:survivor
+                - link "survival" [ref=e49] [cursor=pointer]:
+                  - /url: https://kenney.nl/assets/tag:survival
+            - row "Category 3D • Animated Characters" [ref=e50]:
+              - cell "Category" [ref=e51]
+              - cell "3D • Animated Characters" [ref=e52]:
+                - link "3D" [ref=e53] [cursor=pointer]:
+                  - /url: https://kenney.nl/assets/category:3D
+                - text: •
+                - link "Animated Characters" [ref=e54] [cursor=pointer]:
+                  - /url: https://kenney.nl/assets/series:Animated Characters
+            - row "Files 8×" [ref=e55]:
+              - cell "Files" [ref=e56]
+              - cell "8×" [ref=e57]
+            - row "License Creative Commons CC0" [ref=e58]:
+              - cell "License" [ref=e59]
+              - cell "Creative Commons CC0" [ref=e60]:
+                - link "Creative Commons CC0" [ref=e61] [cursor=pointer]:
+                  - /url: https://creativecommons.org/publicdomain/zero/1.0/
+        - paragraph
+        - paragraph [ref=e62]:
+          - link "Download" [ref=e63] [cursor=pointer]:
+            - /url: "#inline-download"
+          - link "Get All-in-1 bundle" [ref=e64] [cursor=pointer]:
+            - /url: https://kenney.itch.io/kenney-game-assets
+        - paragraph
+        - generic [ref=e65]: Updates
+        - table [ref=e66]:
+          - rowgroup [ref=e67]:
+            - row "1.0 Released in 2019" [ref=e68]:
+              - cell "1.0 Released in 2019" [ref=e69]:
+                - generic [ref=e70]: "1.0"
+                - text: Released in 2019
+        - paragraph
+      - link [ref=e74] [cursor=pointer]:
+        - /url: https://kenney.nl/media/pages/assets/animated-characters-survivors/de34934a09-1674931680/preview.png
+        - img [ref=e75]
+    - generic [ref=e77]:
+      - heading "You might also like..." [level=2] [ref=e78]
+      - generic [ref=e79]:
+        - generic [ref=e81]:
+          - link [ref=e82] [cursor=pointer]:
+            - /url: https://kenney.nl/assets/animated-characters-retro
+          - heading "Animated Characters Retro" [level=2] [ref=e84]:
+            - link "Animated Characters Retro" [ref=e85] [cursor=pointer]:
+              - /url: https://kenney.nl/assets/animated-characters-retro
+          - generic [ref=e86]:
+            - link "3D" [ref=e88] [cursor=pointer]:
+              - /url: https://kenney.nl/assets?category=3D
+            - text: •
+            - link "Animated Characters" [ref=e89] [cursor=pointer]:
+              - /url: https://kenney.nl/assets?series=Animated Characters
+        - generic [ref=e91]:
+          - link [ref=e92] [cursor=pointer]:
+            - /url: https://kenney.nl/assets/animated-characters-protagonists
+          - heading "Animated Characters Protagonists" [level=2] [ref=e94]:
+            - link "Animated Characters Protagonists" [ref=e95] [cursor=pointer]:
+              - /url: https://kenney.nl/assets/animated-characters-protagonists
+          - generic [ref=e96]:
+            - link "3D" [ref=e98] [cursor=pointer]:
+              - /url: https://kenney.nl/assets?category=3D
+            - text: •
+            - link "Animated Characters" [ref=e99] [cursor=pointer]:
+              - /url: https://kenney.nl/assets?series=Animated Characters
+        - generic [ref=e101]:
+          - link [ref=e102] [cursor=pointer]:
+            - /url: https://kenney.nl/assets/rpg-urban-pack
+          - heading "RPG Urban Pack" [level=2] [ref=e104]:
+            - link "RPG Urban Pack" [ref=e105] [cursor=pointer]:
+              - /url: https://kenney.nl/assets/rpg-urban-pack
+          - link "2D" [ref=e108] [cursor=pointer]:
+            - /url: https://kenney.nl/assets?category=2D
+        - generic [ref=e110]:
+          - link [ref=e111] [cursor=pointer]:
+            - /url: https://kenney.nl/assets/sokoban
+          - heading "Sokoban" [level=2] [ref=e113]:
+            - link "Sokoban" [ref=e114] [cursor=pointer]:
+              - /url: https://kenney.nl/assets/sokoban
+          - link "2D" [ref=e117] [cursor=pointer]:
+            - /url: https://kenney.nl/assets?category=2D
+  - contentinfo [ref=e118]:
+    - generic [ref=e120]: Copyright © 2010 - 2026 · All rights reserved
+    - generic [ref=e122]:
+      - link "Support" [ref=e123] [cursor=pointer]:
+        - /url: https://kenney.nl/support
+      - link "Knowledge Base" [ref=e124] [cursor=pointer]:
+        - /url: https://kenney.nl/knowledge-base
+      - link "Privacy Policy" [ref=e125] [cursor=pointer]:
+        - /url: https://kenney.nl/privacy-policy
+      - link "Terms of Service" [ref=e126] [cursor=pointer]:
+        - /url: https://kenney.nl/terms-of-service
+  - link "Coming to Steam! Add to wishlist to support" [ref=e127] [cursor=pointer]:
+    - /url: https://store.steampowered.com/app/4059160/Kenney_Game_Assets_Allin1
+    - heading "Coming to Steam!" [level=1] [ref=e128]
+    - paragraph [ref=e129]: Add to wishlist to support

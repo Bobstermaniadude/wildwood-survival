@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "name": "POIs spawned",
+      "ok": true,
+      "data": 8
+    },
+    {
+      "name": "blocks player: shack wall",
+      "ok": true,
+      "data": {
+        "x": 49.78438917643725,
+        "plane": 50.45438917643725
+      }
+    },
+    {
+      "name": "memo reachable after blocking: 0",
+      "ok": true,
+      "data": {
+        "blockedSide": 2.0700000000000003,
+        "openSide": 2.200000000000003
+      }
+    },
+    {
+      "name": "blocks player: camp log",
+      "ok": true,
+      "data": {
+        "x": -59.66759035734404,
+        "plane": -57.71759035734404
+      }
+    },
+    {
+      "name": "memo reachable after blocking: 1",
+      "ok": true,
+      "data": {
+        "blockedSide": 3.75,
+        "openSide": 2.200000000000003
+      }
+    },
+    {
+      "name": "blocks player: cairn",
+      "ok": true,
+      "data": {
+        "x": 222.44442180076018,
+        "plane": 224.73442180076017
+      }
+    },
+    {
+      "name": "memo reachable after blocking: 2",
+      "ok": true,
+      "data": {
+        "blockedSide": 2.289999999999992,
+        "openSide": 2.1999999999999886
+      }
+    },
+    {
+      "name": "built wall still blocks",
+      "ok": true,
+      "data": {
+        "z": -41.59464333023518,
+        "wallZ": -42.30464333023518
+      }
+    },
+    {
+      "name": "POI claim + journal opens",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

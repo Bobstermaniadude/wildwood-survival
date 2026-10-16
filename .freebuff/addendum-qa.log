@@ -1,0 +1,21 @@
+PASS audio gesture initializes one running context and decodes every local file
+PASS native furnace start reserves exact sand/fuel and refuses repeat
+PASS unfinished output disabled and not collectible
+PASS paused furnace menu freezes processing
+PASS closed interface advances progress with true heat/light
+PASS continue restores running furnace progress snow cave and inventory
+PASS one batch yields exactly one glass
+PASS collect once cannot duplicate glass
+PASS Settings opens from pause with gameplay frozen and cursor released
+PASS Settings shows actual active volume values
+PASS Settings Back returns to original paused menu
+PASS preferences persist independently of restored industry/run
+PASS decoded music reaches output analyser with nonzero signal
+PASS repeated inventory open close removes isolated renderer and canvas
+PASS Reset restores actual default renderer and audio preferences
+PASS no runtime exceptions or missing assets
+{
+  "passed": 72,
+  "total": 72,
+  "errors": []
+}

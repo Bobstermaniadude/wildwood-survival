@@ -1,0 +1,129 @@
+{
+  "checks": [
+    {
+      "name": "valid dig site found",
+      "ok": true
+    },
+    {
+      "name": "dig gains one actual soil stack",
+      "ok": true
+    },
+    {
+      "name": "remesh preserves all scenery references",
+      "ok": true
+    },
+    {
+      "name": "fill removes soil and restores smooth surface",
+      "ok": true
+    },
+    {
+      "name": "fill cannot create free terrain",
+      "ok": true
+    },
+    {
+      "name": "30 torch cycles preserve resource count lights and list",
+      "ok": true
+    },
+    {
+      "name": "aimed X torch removal still selects actual model",
+      "ok": true
+    },
+    {
+      "name": "foundation costs actual inventory wood",
+      "ok": true
+    },
+    {
+      "name": "repeated build cannot double charge",
+      "ok": true
+    },
+    {
+      "name": "dismantle refund once",
+      "ok": true
+    },
+    {
+      "name": "closed door solid",
+      "ok": true
+    },
+    {
+      "name": "campfire cooking atomic owned food",
+      "ok": true
+    },
+    {
+      "name": "survey cave with ore exists",
+      "ok": true
+    },
+    {
+      "name": "walk-in cave entrance works",
+      "ok": true
+    },
+    {
+      "name": "cave ore uses mining reward transaction",
+      "ok": true
+    },
+    {
+      "name": "walkable ramp returns to surface",
+      "ok": true
+    },
+    {
+      "name": "selected dressing consumed and empty slot falls back to fists",
+      "ok": true
+    },
+    {
+      "name": "animal hit flash resets",
+      "ok": true
+    },
+    {
+      "name": "animal skeleton and materials independent",
+      "ok": true
+    },
+    {
+      "name": "core has working advanced recipe",
+      "ok": true
+    },
+    {
+      "name": "renderer quality budgets differ",
+      "ok": true,
+      "data": {
+        "low": {
+          "calls": 107,
+          "triangles": 39234
+        },
+        "high": {
+          "calls": 123,
+          "triangles": 50948
+        }
+      }
+    },
+    {
+      "name": "representative simulation runs without exceptions",
+      "ok": true,
+      "data": {
+        "frames": 120,
+        "totalMs": 148.79999999701977,
+        "msPerUpdate": 1.2399999999751647
+      }
+    },
+    {
+      "name": "physical core and live injured animal reconstruct on save reload",
+      "ok": true
+    },
+    {
+      "name": "drowning reason and controlled death sequence",
+      "ok": true
+    },
+    {
+      "name": "live requestAnimationFrame loop advances",
+      "ok": true
+    },
+    {
+      "name": "live preview loads and animations update",
+      "ok": true
+    },
+    {
+      "name": "no runtime console errors",
+      "ok": true,
+      "data": []
+    }
+  ],
+  "errors": []
+}

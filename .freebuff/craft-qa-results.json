@@ -1,0 +1,110 @@
+{
+  "checks": [
+    {
+      "name": "field menu opens via C path",
+      "ok": true
+    },
+    {
+      "name": "field menu hides advanced recipes",
+      "ok": true,
+      "data": [
+        "✊  FISTS",
+        "🏏  WOOD CLUB",
+        "🪓  WOOD AXE",
+        "⛏️  STONE PICKAXE",
+        "🔥  TORCH",
+        "Field dressing"
+      ]
+    },
+    {
+      "name": "field menu shows basics",
+      "ok": true
+    },
+    {
+      "name": "field menu shows dressing, not armor",
+      "ok": true
+    },
+    {
+      "name": "field menu explains bench lock",
+      "ok": true
+    },
+    {
+      "name": "field menu title",
+      "ok": true
+    },
+    {
+      "name": "field crafting deducts resources",
+      "ok": true,
+      "data": {
+        "wood": 17,
+        "crafted": true
+      }
+    },
+    {
+      "name": "bench menu shows advanced recipes",
+      "ok": true
+    },
+    {
+      "name": "bench menu shows armor",
+      "ok": true
+    },
+    {
+      "name": "bench menu has advanced section",
+      "ok": true
+    },
+    {
+      "name": "bench menu keeps basics",
+      "ok": true
+    },
+    {
+      "name": "bench menu title",
+      "ok": true
+    },
+    {
+      "name": "C near bench auto-opens bench menu",
+      "ok": true,
+      "data": "WORKBENCH · ADVANCED RECIPES"
+    },
+    {
+      "name": "bench craft unlocks stone axe",
+      "ok": true,
+      "data": {
+        "couldCraft": true
+      }
+    },
+    {
+      "name": "I opens inventory and pauses",
+      "ok": true
+    },
+    {
+      "name": "inventory lists all 7 resources",
+      "ok": true,
+      "data": 7
+    },
+    {
+      "name": "inventory shows live wood count",
+      "ok": true,
+      "data": {
+        "shown": "17",
+        "actual": 17
+      }
+    },
+    {
+      "name": "second I closes inventory",
+      "ok": true
+    },
+    {
+      "name": "Esc closes inventory",
+      "ok": true
+    },
+    {
+      "name": "death closes inventory",
+      "ok": true
+    },
+    {
+      "name": "restart clean",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

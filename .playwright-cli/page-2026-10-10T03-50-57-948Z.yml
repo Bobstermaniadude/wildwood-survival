@@ -1,0 +1,109 @@
+- generic [ref=e2]:
+  - generic:
+    - generic: DAY 1 · DAY
+    - generic:
+      - generic: WEATHER
+      - generic: CLEAR
+    - generic:
+      - generic: TOM PEARL
+      - generic: DORMANT
+    - generic:
+      - generic: COORD
+      - generic: "-50, -122"
+    - generic: Follow the amber camp marker · recover the abandoned pack
+    - generic:
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic "Raw meat":
+        - generic: "0"
+      - generic "Soil · shovel refilling":
+        - generic: "0"
+  - generic:
+    - generic: SECTOR SCAN · -4,-8
+  - generic:
+    - generic:
+      - generic:
+        - generic: HEALTH 100
+      - generic:
+        - generic: HUNGER 100
+    - generic:
+      - generic:
+        - generic: STAMINA 100
+  - generic:
+    - button "Empty slot 1":
+      - generic: "1"
+    - button "Empty slot 2":
+      - generic: "2"
+    - button "Empty slot 3":
+      - generic: "3"
+    - button "Empty slot 4":
+      - generic: "4"
+    - button "Empty slot 5":
+      - generic: "5"
+    - button "Empty slot 6":
+      - generic: "6"
+    - button "Empty slot 7":
+      - generic: "7"
+    - button "Empty slot 8":
+      - generic: "8"
+    - button "Empty slot 9":
+      - generic: "9"
+  - generic:
+    - generic: Empty pack · gather loose supplies nearby or use your hands · C craft
+  - generic:
+    - heading "CONTROLS" [level=4]
+    - generic:
+      - generic:
+        - generic: MOVE
+        - generic: WASD
+      - generic:
+        - generic: LOOK
+        - generic: MOUSE
+      - generic:
+        - generic: SPRINT
+        - generic: SHIFT
+      - generic:
+        - generic: JUMP
+        - generic: SPACE
+      - generic:
+        - generic: USE
+        - generic: CLICK/E
+      - generic:
+        - generic: BUILD
+        - generic: B / R
+      - generic:
+        - generic: JOURNAL
+        - generic: J
+      - generic:
+        - generic: DISMANTLE
+        - generic: X
+      - generic:
+        - generic: REFILL
+        - generic: V / RMB
+      - generic:
+        - generic: PACK
+        - generic: I
+      - generic:
+        - generic: CRAFT
+        - generic: C
+      - generic:
+        - generic: HOTBAR
+        - generic: 1–9 / WHEEL
+      - generic:
+        - generic: EAT
+        - generic: F
+      - generic:
+        - generic: SWIM
+        - generic: SPACE
+      - generic:
+        - generic: PAUSE
+        - generic: ESC
+  - generic: "[ CLICK ] CHOP"

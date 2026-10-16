@@ -1,0 +1,327 @@
+{
+  "checks": [
+    {
+      "name": "audio gesture initializes one running context and decodes every local file",
+      "ok": true
+    },
+    {
+      "name": "starter cave within 110m of natural spawn and unmarked until discovery",
+      "ok": true,
+      "data": {
+        "distance": 40.96928113012318
+      }
+    },
+    {
+      "name": "walk continuously through surface opening to chamber without teleport or falling through",
+      "ok": true,
+      "data": {
+        "pos": [
+          -50.51421307219192,
+          -12.954714585033155,
+          -40.84447343228338
+        ],
+        "maxGap": 0.16310696419696313
+      }
+    },
+    {
+      "name": "discovery persisted without undiscovered global waypoints",
+      "ok": true
+    },
+    {
+      "name": "walk back up slope to surface without trapped position",
+      "ok": true,
+      "data": {
+        "pos": [
+          -50.803188923139295,
+          1.7395818374319796,
+          -92.52565951066035
+        ]
+      }
+    },
+    {
+      "name": "continuous chamber wall clamps actual collider position",
+      "ok": true
+    },
+    {
+      "name": "corridor uses same wall collision for creatures",
+      "ok": true
+    },
+    {
+      "name": "ore sits on navigable floor not floating",
+      "ok": true
+    },
+    {
+      "name": "stream return preserves cave ore HP and encounter spawn budget",
+      "ok": true
+    },
+    {
+      "name": "cave topology ore anchors and identity stable across quality",
+      "ok": true
+    },
+    {
+      "name": "held torch is physical ranged illumination outside shared pool",
+      "ok": true
+    },
+    {
+      "name": "all eight nearby torches receive useful lights",
+      "ok": true
+    },
+    {
+      "name": "target removal releases its illumination exactly",
+      "ok": true
+    },
+    {
+      "name": "snow accumulates gradually without changing geometry",
+      "ok": true
+    },
+    {
+      "name": "snow quality and streaming retain identical compact coverage",
+      "ok": true
+    },
+    {
+      "name": "rain melts warm accumulation faster than cold",
+      "ok": true
+    },
+    {
+      "name": "furnace distinct model and solid collision",
+      "ok": true
+    },
+    {
+      "name": "native furnace start reserves exact sand/fuel and refuses repeat",
+      "ok": true
+    },
+    {
+      "name": "unfinished output disabled and not collectible",
+      "ok": true
+    },
+    {
+      "name": "paused furnace menu freezes processing",
+      "ok": true
+    },
+    {
+      "name": "closed interface advances progress with true heat/light",
+      "ok": true
+    },
+    {
+      "name": "continue restores running furnace progress snow cave and inventory",
+      "ok": true
+    },
+    {
+      "name": "one batch yields exactly one glass",
+      "ok": true
+    },
+    {
+      "name": "collect once cannot duplicate glass",
+      "ok": true
+    },
+    {
+      "name": "bulb recipe consumes actual furnace glass and iron",
+      "ok": true
+    },
+    {
+      "name": "unpowered lamp dark and no environmental light",
+      "ok": true
+    },
+    {
+      "name": "one wood fuels generator and actual connected lamp light",
+      "ok": true
+    },
+    {
+      "name": "generator off releases lamp illumination",
+      "ok": true
+    },
+    {
+      "name": "lamp switch off independent of active generator",
+      "ok": true
+    },
+    {
+      "name": "dismantled power source leaves no orphan illumination",
+      "ok": true
+    },
+    {
+      "name": "render distance increases streaming workload with stable authoritative nearby props",
+      "ok": true,
+      "data": {
+        "small": 25,
+        "large": 49
+      }
+    },
+    {
+      "name": "supported performance controls change actual render properties not world state",
+      "ok": true
+    },
+    {
+      "name": "Settings opens from pause with gameplay frozen and cursor released",
+      "ok": true
+    },
+    {
+      "name": "Settings shows actual active volume values",
+      "ok": true
+    },
+    {
+      "name": "Settings Back returns to original paused menu",
+      "ok": true
+    },
+    {
+      "name": "preferences persist independently of restored industry/run",
+      "ok": true
+    },
+    {
+      "name": "decoded music reaches output analyser with nonzero signal",
+      "ok": true,
+      "data": {
+        "rms": 0.0031997127186834855,
+        "music": "forest",
+        "voices": 3,
+        "tracks": 1,
+        "buffers": 63
+      }
+    },
+    {
+      "name": "repeated resume never creates duplicate context",
+      "ok": true
+    },
+    {
+      "name": "independent audio buses target exact values",
+      "ok": true
+    },
+    {
+      "name": "sample playback step-grass",
+      "ok": true
+    },
+    {
+      "name": "sample playback step-soil",
+      "ok": true
+    },
+    {
+      "name": "sample playback step-sand",
+      "ok": true
+    },
+    {
+      "name": "sample playback step-stone",
+      "ok": true
+    },
+    {
+      "name": "sample playback step-snow",
+      "ok": true
+    },
+    {
+      "name": "sample playback step-wood",
+      "ok": true
+    },
+    {
+      "name": "sample playback step-cave",
+      "ok": true
+    },
+    {
+      "name": "sample playback dig-soil",
+      "ok": true
+    },
+    {
+      "name": "sample playback dig-sand",
+      "ok": true
+    },
+    {
+      "name": "sample playback mine",
+      "ok": true
+    },
+    {
+      "name": "sample playback chop",
+      "ok": true
+    },
+    {
+      "name": "sample playback bow",
+      "ok": true
+    },
+    {
+      "name": "sample playback arrowImpact",
+      "ok": true
+    },
+    {
+      "name": "sample playback husk",
+      "ok": true
+    },
+    {
+      "name": "sample playback crawler",
+      "ok": true
+    },
+    {
+      "name": "sample playback pig",
+      "ok": true
+    },
+    {
+      "name": "sample playback deer",
+      "ok": true
+    },
+    {
+      "name": "sample playback boss",
+      "ok": true
+    },
+    {
+      "name": "sample playback death",
+      "ok": true
+    },
+    {
+      "name": "sample playback thunder",
+      "ok": true
+    },
+    {
+      "name": "sample playback furnace",
+      "ok": true
+    },
+    {
+      "name": "sample playback ui",
+      "ok": true
+    },
+    {
+      "name": "health primary larger than stamina",
+      "ok": true
+    },
+    {
+      "name": "actual damage numeric HUD transient feedback",
+      "ok": true
+    },
+    {
+      "name": "critical health restrained warning",
+      "ok": true
+    },
+    {
+      "name": "healing feedback clears critical state",
+      "ok": true
+    },
+    {
+      "name": "boss bar appears on spawn with real current maximum HP",
+      "ok": true
+    },
+    {
+      "name": "boss bar tracks damage",
+      "ok": true
+    },
+    {
+      "name": "every armor piece bound to preview own skeleton with covered body masked",
+      "ok": true
+    },
+    {
+      "name": "mixed armor coexists and full preview framed",
+      "ok": true
+    },
+    {
+      "name": "repeated inventory open close removes isolated renderer and canvas",
+      "ok": true
+    },
+    {
+      "name": "Reset restores actual default renderer and audio preferences",
+      "ok": true
+    },
+    {
+      "name": "no runtime exceptions or missing assets",
+      "ok": true,
+      "data": {
+        "errors": [],
+        "failed": []
+      }
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

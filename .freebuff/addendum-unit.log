@@ -1,0 +1,33 @@
+(node:17968) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/srivarenya/Downloads/game/caves.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\srivarenya\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ starter cave deterministic and safely approachable seed 1337 (86.7711ms)
+✔ starter cave deterministic and safely approachable seed 1 (30.2245ms)
+✔ starter cave deterministic and safely approachable seed 2 (19.3221ms)
+✔ starter cave deterministic and safely approachable seed 7 (11.4312ms)
+✔ starter cave deterministic and safely approachable seed 42 (19.6038ms)
+✔ starter cave deterministic and safely approachable seed 100 (23.3462ms)
+✔ starter cave deterministic and safely approachable seed 12345 (18.4246ms)
+✔ starter cave deterministic and safely approachable seed 8675309 (5.9168ms)
+(node:6156) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/srivarenya/Downloads/game/items.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\srivarenya\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ nine empty quickbar slots and owned resource stack limits (9.0106ms)
+✔ derived compatibility view cannot create negative resources (5.2013ms)
+✔ craft transactions atomic and equipment individually owned (0.7673ms)
+✔ split merge swap and invalid drop preserve contents (0.6351ms)
+✔ armor equip and unequip preserve identity and centrally reduce damage (0.4048ms)
+✔ legacy migration exactly once keeps resource/weapon ID collision distinct (0.727ms)
+✔ save data rejects duplicates, invalid slots and negative stacks without mutation (1.3389ms)
+✔ storage transfers actual tools and stacks conserve totals and identity (0.6326ms)
+✔ consuming selected last stack clears its slot (0.2475ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 415.5077

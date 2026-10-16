@@ -1,0 +1,98 @@
+- generic [ref=e2]:
+  - generic:
+    - generic: DAY 1 · DAY
+    - generic:
+      - generic: WEATHER
+      - generic: CLEAR
+    - generic:
+      - generic: TOM PEARL
+      - generic: DORMANT
+    - generic:
+      - generic: COORD
+      - generic: 30, 0
+    - generic:
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+  - generic:
+    - generic: SECTOR SCAN · 1,0
+  - generic:
+    - generic:
+      - generic:
+        - generic: HEALTH 100
+      - generic:
+        - generic: HUNGER 100
+    - generic:
+      - generic:
+        - generic: STAMINA 100
+  - generic:
+    - generic:
+      - generic: "1"
+      - generic: ✊
+    - generic:
+      - generic: "2"
+      - generic: 🏏
+    - generic:
+      - generic: "3"
+      - generic: 🪓
+    - generic:
+      - generic: "4"
+      - generic: ⛏️
+    - generic:
+      - generic: "5"
+      - generic: 🪓
+    - generic:
+      - generic: "6"
+      - generic: ⚔️
+    - generic:
+      - generic: "7"
+      - generic: 🗡️
+    - generic:
+      - generic: "8"
+      - generic: ✦
+    - generic:
+      - generic: "9"
+      - generic: 🔥
+  - generic:
+    - heading "CONTROLS" [level=4]
+    - generic:
+      - generic:
+        - generic: MOVE
+        - generic: WASD
+      - generic:
+        - generic: LOOK
+        - generic: MOUSE
+      - generic:
+        - generic: SPRINT
+        - generic: SHIFT
+      - generic:
+        - generic: JUMP
+        - generic: SPACE
+      - generic:
+        - generic: USE
+        - generic: CLICK
+      - generic:
+        - generic: CRAFT
+        - generic: C
+      - generic:
+        - generic: HOTBAR
+        - generic: 1-9
+      - generic:
+        - generic: EAT
+        - generic: F
+      - generic:
+        - generic: SWIM
+        - generic: SPACE
+      - generic:
+        - generic: PAUSE
+        - generic: ESC
+  - generic: "[ CLICK ] SWING"

@@ -1,0 +1,125 @@
+- generic [ref=e2]:
+  - generic:
+    - generic: DAY 1 · DAY
+    - generic:
+      - generic: WEATHER
+      - generic: CLEAR
+    - generic:
+      - generic: TOM PEARL
+      - generic: DORMANT
+    - generic:
+      - generic: COORD
+      - generic: 30, 0
+    - generic: Gather wood · C craft · B build your camp
+    - generic:
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+      - generic:
+        - generic: "0"
+  - generic:
+    - generic: SECTOR SCAN · 1,0
+  - generic:
+    - generic:
+      - generic:
+        - generic: HEALTH 100
+      - generic:
+        - generic: HUNGER 100
+    - generic:
+      - generic:
+        - generic: STAMINA 100
+  - generic:
+    - generic:
+      - generic: "1"
+      - generic: ✊
+    - generic:
+      - generic: "2"
+      - generic: 🏏
+    - generic:
+      - generic: "3"
+      - generic: 🪓
+    - generic:
+      - generic: "4"
+      - generic: ⛏️
+    - generic:
+      - generic: "5"
+      - generic: 🪓
+    - generic:
+      - generic: "6"
+      - generic: ⚔️
+    - generic:
+      - generic: "7"
+      - generic: 🗡️
+    - generic:
+      - generic: "8"
+      - generic: ✦
+    - generic:
+      - generic: "9"
+      - generic: 🔥
+  - generic:
+    - heading "CONTROLS" [level=4]
+    - generic:
+      - generic:
+        - generic: MOVE
+        - generic: WASD
+      - generic:
+        - generic: LOOK
+        - generic: MOUSE
+      - generic:
+        - generic: SPRINT
+        - generic: SHIFT
+      - generic:
+        - generic: JUMP
+        - generic: SPACE
+      - generic:
+        - generic: USE
+        - generic: CLICK/E
+      - generic:
+        - generic: BUILD
+        - generic: B / R
+      - generic:
+        - generic: JOURNAL
+        - generic: J
+      - generic:
+        - generic: DISMANTLE
+        - generic: X
+      - generic:
+        - generic: CRAFT
+        - generic: C
+      - generic:
+        - generic: HOTBAR
+        - generic: 1-9
+      - generic:
+        - generic: EAT
+        - generic: F
+      - generic:
+        - generic: SWIM
+        - generic: SPACE
+      - generic:
+        - generic: PAUSE
+        - generic: ESC
+  - generic: "[ CLICK ] CHOP"
+  - generic [ref=e6]:
+    - generic [ref=e7]: THE PEARL SIGNAL · WILDERNESS SURVIVAL
+    - heading "WILDWOOD SURVIVAL" [level=1] [ref=e8]:
+      - text: WILDWOOD
+      - emphasis [ref=e9]: SURVIVAL
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: The last thing you remember is a voice on the radio. "Don't answer when he calls your name." Now the wilderness is silent, and the camps are empty.
+      - paragraph [ref=e12]: Gather wood and stone. Craft an axe with C, establish a camp with B, and cook the meat you take from animals. A workbench unlocks better equipment. Follow the amber marks on your map to abandoned supplies and journal fragments.
+      - paragraph [ref=e13]: The first night is forgiving. The next will not be. Build walls, a door, and a roof before the wilderness wakes. After the second night, Tom Pearl begins to walk.
+    - generic [ref=e14]: WASD MOVE · MOUSE LOOK · SHIFT SPRINT · SPACE JUMP · CLICK USE / DIG / PLACE TORCH · C CRAFT · 1-9 HOTBAR · ESC PAUSE
+    - generic [ref=e15]:
+      - generic [ref=e16]: GRAPHICS
+      - button "LOW" [ref=e17] [cursor=pointer]
+      - button "MED" [ref=e18] [cursor=pointer]
+      - button "HIGH" [ref=e19] [cursor=pointer]
+      - button "ULTRA" [ref=e20] [cursor=pointer]
+    - button "NEW GAME" [ref=e21] [cursor=pointer]

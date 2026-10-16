@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "name": "real sandy biome has safe dry excavation patch",
+      "ok": true,
+      "data": {
+        "x": -158.36153294081709,
+        "z": -261.92109492426755
+      }
+    },
+    {
+      "name": "sand digging deforms heightfield and yields only sand",
+      "ok": true
+    },
+    {
+      "name": "sand refill consumes sand and restores exact original height",
+      "ok": true
+    },
+    {
+      "name": "depleted depression cannot generate unlimited sand",
+      "ok": true,
+      "data": {
+        "successes": 2
+      }
+    },
+    {
+      "name": "ordinary soil remains diggable",
+      "ok": true
+    },
+    {
+      "name": "ordinary ground yields soil not sand",
+      "ok": true
+    },
+    {
+      "name": "sand shared chest roundtrip conserves all units",
+      "ok": true
+    },
+    {
+      "name": "native workshop makes bulb using actual glass",
+      "ok": true
+    },
+    {
+      "name": "furnace has valid actual construction preview",
+      "ok": true
+    },
+    {
+      "name": "furnace construction consumes configured shared inventory cost",
+      "ok": true
+    },
+    {
+      "name": "music-only bus produces measurable audible signal",
+      "ok": true
+    },
+    {
+      "name": "mute removes output signal",
+      "ok": true
+    },
+    {
+      "name": "unmute restores existing sources without duplicate track",
+      "ok": true
+    },
+    {
+      "name": "cave transitions to distinct decoded track and old source finishes",
+      "ok": true
+    },
+    {
+      "name": "boss music prioritized over cave and active once",
+      "ok": true
+    },
+    {
+      "name": "boss death returns to appropriate cave soundtrack",
+      "ok": true
+    },
+    {
+      "name": "no console errors",
+      "ok": true,
+      "data": []
+    }
+  ],
+  "errors": []
+}

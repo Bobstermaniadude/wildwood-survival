@@ -1,0 +1,322 @@
+{
+  "checks": [
+    {
+      "name": "new game nine truly empty slots",
+      "ok": true
+    },
+    {
+      "name": "32 local assets loaded",
+      "ok": true
+    },
+    {
+      "name": "spawn supplies remain physical until picked up",
+      "ok": true
+    },
+    {
+      "name": "pickup once, SVG icon and automatic first-slot assignment",
+      "ok": true
+    },
+    {
+      "name": "resource stacks capped at 99",
+      "ok": true
+    },
+    {
+      "name": "split stack conserves quantities",
+      "ok": true
+    },
+    {
+      "name": "merge stacks exactly",
+      "ok": true
+    },
+    {
+      "name": "swap resource items",
+      "ok": true
+    },
+    {
+      "name": "insufficient transaction is atomic",
+      "ok": true
+    },
+    {
+      "name": "negative quantities rejected",
+      "ok": true
+    },
+    {
+      "name": "field creates an owned axe",
+      "ok": true
+    },
+    {
+      "name": "second crafted tool is distinct, not unlock boolean",
+      "ok": true
+    },
+    {
+      "name": "advanced field crafting rejected",
+      "ok": true
+    },
+    {
+      "name": "bench bow crafting valid and owned",
+      "ok": true
+    },
+    {
+      "name": "no armor incoming damage",
+      "ok": true
+    },
+    {
+      "name": "one armor piece damage",
+      "ok": true
+    },
+    {
+      "name": "multiple armor centralized damage",
+      "ok": true
+    },
+    {
+      "name": "unequip conserves ownership and restores stats",
+      "ok": true
+    },
+    {
+      "name": "chest receives actual stack",
+      "ok": true
+    },
+    {
+      "name": "chest roundtrip no loss or duplication",
+      "ok": true
+    },
+    {
+      "name": "quality cycles preserve identities positions HP harvest and colliders",
+      "ok": true
+    },
+    {
+      "name": "quality preserves edits structures and torches",
+      "ok": true
+    },
+    {
+      "name": "quality still changes rendering budget",
+      "ok": true
+    },
+    {
+      "name": "streamed revisit at different quality preserves partial HP and anchors",
+      "ok": true
+    },
+    {
+      "name": "pig valid ranged launch",
+      "ok": true
+    },
+    {
+      "name": "pig moving projectile visible",
+      "ok": true
+    },
+    {
+      "name": "pig swept arrow deals damage exactly once",
+      "ok": true,
+      "data": {
+        "before": 10,
+        "after": -8
+      }
+    },
+    {
+      "name": "pig death lingers, stops AI and has no automatic reward",
+      "ok": true
+    },
+    {
+      "name": "pig pause freezes corpse",
+      "ok": true
+    },
+    {
+      "name": "pig corpse fades and releases physical reward",
+      "ok": true
+    },
+    {
+      "name": "pig loot collectible once",
+      "ok": true
+    },
+    {
+      "name": "husk valid ranged launch",
+      "ok": true
+    },
+    {
+      "name": "husk moving projectile visible",
+      "ok": true
+    },
+    {
+      "name": "husk swept arrow deals damage exactly once",
+      "ok": true,
+      "data": {
+        "before": 24,
+        "after": 6
+      }
+    },
+    {
+      "name": "husk death lingers, stops AI and has no automatic reward",
+      "ok": true
+    },
+    {
+      "name": "husk pause freezes corpse",
+      "ok": true
+    },
+    {
+      "name": "husk corpse fades and releases physical reward",
+      "ok": true
+    },
+    {
+      "name": "husk loot collectible once",
+      "ok": true
+    },
+    {
+      "name": "crawler valid ranged launch",
+      "ok": true
+    },
+    {
+      "name": "crawler moving projectile visible",
+      "ok": true
+    },
+    {
+      "name": "crawler swept arrow deals damage exactly once",
+      "ok": true,
+      "data": {
+        "before": 8,
+        "after": -10
+      }
+    },
+    {
+      "name": "crawler death lingers, stops AI and has no automatic reward",
+      "ok": true
+    },
+    {
+      "name": "crawler pause freezes corpse",
+      "ok": true
+    },
+    {
+      "name": "crawler corpse fades and releases physical reward",
+      "ok": true
+    },
+    {
+      "name": "crawler loot collectible once",
+      "ok": true
+    },
+    {
+      "name": "boss valid ranged launch",
+      "ok": true
+    },
+    {
+      "name": "boss moving projectile visible",
+      "ok": true
+    },
+    {
+      "name": "boss swept arrow deals damage exactly once",
+      "ok": true,
+      "data": {
+        "before": 180,
+        "after": 162
+      }
+    },
+    {
+      "name": "boss death lingers, stops AI and has no automatic reward",
+      "ok": true
+    },
+    {
+      "name": "boss pause freezes corpse",
+      "ok": true
+    },
+    {
+      "name": "boss corpse fades and releases physical reward",
+      "ok": true
+    },
+    {
+      "name": "boss loot collectible once",
+      "ok": true
+    },
+    {
+      "name": "no-ammo shot cannot spawn or consume",
+      "ok": true
+    },
+    {
+      "name": "missed arrows cleaned up",
+      "ok": true
+    },
+    {
+      "name": "terrain impact yields one recoverable arrow",
+      "ok": true
+    },
+    {
+      "name": "recoverable arrow cannot duplicate ammo",
+      "ok": true
+    },
+    {
+      "name": "stamina recovers from zero with faster central tuning",
+      "ok": true
+    },
+    {
+      "name": "save v4 validates inventory equipment physical rewards and world edits",
+      "ok": true
+    },
+    {
+      "name": "inventory preview entire character with real rig and idle",
+      "ok": true
+    },
+    {
+      "name": "native drag-drop assigns backpack slot",
+      "ok": true
+    },
+    {
+      "name": "native preview drag rotates character",
+      "ok": true
+    },
+    {
+      "name": "armor visibly changes preview loadout",
+      "ok": true
+    },
+    {
+      "name": "closing preview disposes its renderer",
+      "ok": true
+    },
+    {
+      "name": "save reload UI continue preserves exact item IDs slots armor and edits",
+      "ok": true
+    },
+    {
+      "name": "legacy v3 migration resources equipment armor and selected torch",
+      "ok": true,
+      "data": {
+        "wood": 105,
+        "axe": 1,
+        "ironBlade": 1,
+        "chest": "linedVest",
+        "active": "torch",
+        "backup": true
+      }
+    },
+    {
+      "name": "v2 migration validates old torch index and terrain generator",
+      "ok": true
+    },
+    {
+      "name": "malformed v4 rejected without overwriting raw save",
+      "ok": true
+    },
+    {
+      "name": "fatal reaction delays overlay",
+      "ok": true
+    },
+    {
+      "name": "death camera animation advances while dead",
+      "ok": true
+    },
+    {
+      "name": "death screen becomes visible",
+      "ok": true
+    },
+    {
+      "name": "restart empty inventory clean stamina corpse loot and camera",
+      "ok": true
+    },
+    {
+      "name": "runtime console and asset requests clean",
+      "ok": true,
+      "data": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

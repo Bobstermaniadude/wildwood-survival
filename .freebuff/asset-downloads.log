@@ -1,0 +1,24 @@
+127.0.0.1 - - [08/Oct/2026 23:56:37] "OPTIONS /deer HTTP/1.1" 204 -
+deer 1007564 clips: ['Attack_Headbutt', 'Attack_Kick', 'Death', 'Eating', 'Gallop', 'Gallop_Jump', 'Idle_HitReact_Left', 'Idle_HitReact_Right', 'Jump_toIdle', 'Walk', 'Idle_Headlow', 'Idle_2', 'Idle', 'AnimalArmature|Attack_Headbutt', 'AnimalArmature|Attack_Kick', 'AnimalArmature|Death', 'AnimalArmature|Eating', 'AnimalArmature|Gallop', 'AnimalArmature|Gallop_Jump', 'AnimalArmature|Idle', 'AnimalArmature|Idle_2', 'AnimalArmature|Idle_Headlow', 'AnimalArmature|Idle_HitReact_Left', 'AnimalArmature|Idle_HitReact_Right', 'AnimalArmature|Jump_toIdle', 'AnimalArmature|Walk']
+127.0.0.1 - - [08/Oct/2026 23:56:37] "POST /deer HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 23:56:37] "OPTIONS /pig HTTP/1.1" 204 -
+pig 159724 clips: ['Armature|Idle', 'Armature|Jump']
+127.0.0.1 - - [08/Oct/2026 23:56:37] "POST /pig HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 23:56:37] "OPTIONS /stone-sword HTTP/1.1" 204 -
+stone-sword 47240 clips: []
+127.0.0.1 - - [08/Oct/2026 23:56:37] "POST /stone-sword HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 23:56:37] "OPTIONS /iron-blade HTTP/1.1" 204 -
+iron-blade 50036 clips: []
+127.0.0.1 - - [08/Oct/2026 23:56:37] "POST /iron-blade HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 23:56:37] "OPTIONS /gold-blade HTTP/1.1" 204 -
+gold-blade 54980 clips: []
+127.0.0.1 - - [08/Oct/2026 23:56:37] "POST /gold-blade HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 23:56:38] "OPTIONS /torch HTTP/1.1" 204 -
+torch 27932 clips: []
+127.0.0.1 - - [08/Oct/2026 23:56:38] "POST /torch HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 23:56:38] "OPTIONS /knife HTTP/1.1" 204 -
+knife 42808 clips: []
+127.0.0.1 - - [08/Oct/2026 23:56:38] "POST /knife HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 23:56:38] "OPTIONS /pine HTTP/1.1" 204 -
+pine 2219996 clips: []
+127.0.0.1 - - [08/Oct/2026 23:56:38] "POST /pine HTTP/1.1" 200 -

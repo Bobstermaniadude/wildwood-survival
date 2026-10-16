@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "name": "dry plains spawn",
+      "ok": true
+    },
+    {
+      "name": "animal weapon dispatch",
+      "ok": true,
+      "data": 8
+    },
+    {
+      "name": "stable flee heading",
+      "ok": true
+    },
+    {
+      "name": "crawler weapon dispatch",
+      "ok": true,
+      "data": 6
+    },
+    {
+      "name": "husk weapon dispatch",
+      "ok": true,
+      "data": 14
+    },
+    {
+      "name": "boss weapon dispatch",
+      "ok": true,
+      "data": 178
+    },
+    {
+      "name": "transient feedback expires",
+      "ok": true
+    },
+    {
+      "name": "foundation exact cost",
+      "ok": true
+    },
+    {
+      "name": "workbench gate enforced",
+      "ok": true
+    },
+    {
+      "name": "workbench unlock",
+      "ok": true
+    },
+    {
+      "name": "advanced tool craft",
+      "ok": true
+    },
+    {
+      "name": "closed door collision",
+      "ok": true
+    },
+    {
+      "name": "open door passage",
+      "ok": true
+    },
+    {
+      "name": "cooked food restores vitals",
+      "ok": true
+    },
+    {
+      "name": "torch consumes one wood",
+      "ok": true
+    },
+    {
+      "name": "journal discovery",
+      "ok": true
+    },
+    {
+      "name": "bounded save schema",
+      "ok": true
+    },
+    {
+      "name": "drag look uses real mouse coordinates",
+      "ok": true
+    },
+    {
+      "name": "blur pauses input",
+      "ok": true
+    },
+    {
+      "name": "continue restores camp/lore/torches/tools",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

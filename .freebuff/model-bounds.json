@@ -1,0 +1,799 @@
+[
+  {
+    "path": "deer",
+    "min": [
+      -0.7927787485191844,
+      -0.013107545292530514,
+      -1.6421816759840766
+    ],
+    "max": [
+      0.6556155576603208,
+      4.302750770041726,
+      2.7519139064701115
+    ],
+    "mats": [
+      {
+        "name": "Deer_1",
+        "mat": "Main_Light",
+        "map": false,
+        "color": "a69985",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Deer_2",
+        "mat": "Main",
+        "map": false,
+        "color": "86593d",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Deer_3",
+        "mat": "Main_Dark",
+        "map": false,
+        "color": "68452f",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Deer_4",
+        "mat": "Hooves",
+        "map": false,
+        "color": "443a38",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Deer_5",
+        "mat": "Eye_Lighter",
+        "map": false,
+        "color": "9e6948",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Deer_6",
+        "mat": "Eye_Black",
+        "map": false,
+        "color": "141414",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Deer_7",
+        "mat": "Eye_White",
+        "map": false,
+        "color": "c8c8c8",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      }
+    ],
+    "bones": [
+      "Body",
+      "Back",
+      "Torso",
+      "Torso2",
+      "Torso3",
+      "Neck1",
+      "Neck2",
+      "Neck3",
+      "Head",
+      "Ear1L",
+      "Ear2L",
+      "Ear3L",
+      "Ear4L",
+      "Ear1R",
+      "Ear2R",
+      "Ear3R",
+      "Ear4R",
+      "FrontShoulderL",
+      "FrontUpperLegL",
+      "FrontLowerLegL",
+      "FrontShoulderR",
+      "FrontUpperLegR",
+      "FrontLowerLegR",
+      "BackShoulderL",
+      "BackLegL",
+      "BackUpperLegL",
+      "BackLowerLegL",
+      "BackShoulderR",
+      "BackLegR",
+      "BackUpperLegR",
+      "BackLowerLegR",
+      "Tail1",
+      "Tail2",
+      "Tail3",
+      "PoleTargetBackL",
+      "PoleTargetL",
+      "PoleTargetBackR",
+      "PoleTargetR",
+      "IKBackLegL",
+      "FFBL",
+      "IKFrontLegL",
+      "FFL",
+      "IKBackLegR",
+      "FFBR",
+      "IKFrontLegR",
+      "FFR"
+    ]
+  },
+  {
+    "path": "pig",
+    "min": [
+      -1.6525273178624895,
+      -0.004262100451050391,
+      -4.542177668308303
+    ],
+    "max": [
+      1.6511004162021965,
+      4.570780766373729,
+      5.228423671104938
+    ],
+    "mats": [
+      {
+        "name": "Pig_1",
+        "mat": "Material.003",
+        "map": false,
+        "color": "c49194",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Pig_2",
+        "mat": "Material",
+        "map": false,
+        "color": "704b38",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      }
+    ],
+    "bones": [
+      "root",
+      "FrontFootR",
+      "Body",
+      "FrontLegR",
+      "FrontUpLegR",
+      "FrontLowLegR",
+      "BackLegR",
+      "BackUpLegR",
+      "BackLowLegR",
+      "FrontLegL",
+      "FrontUpLegL",
+      "FrontLowLegL",
+      "BackLegL",
+      "BackUpLegL",
+      "BackLowLegL",
+      "Back",
+      "Shoulders",
+      "Neck",
+      "Head",
+      "Hips",
+      "Torso",
+      "BackFootR",
+      "FrontFootL",
+      "BackFootL"
+    ]
+  },
+  {
+    "path": "stone-sword",
+    "min": [
+      -0.267177587375045,
+      -0.3829786737781289,
+      -0.06107513918441509
+    ],
+    "max": [
+      0.267177587375045,
+      1.9190849096337215,
+      0.061075124429920385
+    ],
+    "mats": [
+      {
+        "name": "Sword_1",
+        "mat": "DarkSteel",
+        "map": false,
+        "color": "7f7f75",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Sword_2",
+        "mat": "DarkWood",
+        "map": false,
+        "color": "402d39",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Sword_3",
+        "mat": "LightWood",
+        "map": false,
+        "color": "63474a",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Sword_4",
+        "mat": "LightSteel",
+        "map": false,
+        "color": "919092",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Sword_5",
+        "mat": "Steel",
+        "map": false,
+        "color": "5d6476",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      }
+    ]
+  },
+  {
+    "path": "iron-blade",
+    "min": [
+      -0.21656698081642398,
+      -0.15053090338809466,
+      -0.05063342809495098
+    ],
+    "max": [
+      0.21656698081642398,
+      2.584094467665789,
+      0.05063336096302759
+    ],
+    "mats": [
+      {
+        "name": "Sword_big_1",
+        "mat": "DarkWood",
+        "map": false,
+        "color": "402d39",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Sword_big_2",
+        "mat": "DarkSteel",
+        "map": false,
+        "color": "7f7f75",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Sword_big_3",
+        "mat": "LightWood",
+        "map": false,
+        "color": "63474a",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Sword_big_4",
+        "mat": "Steel",
+        "map": false,
+        "color": "5d6476",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Sword_big_5",
+        "mat": "LightSteel",
+        "map": false,
+        "color": "919092",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      }
+    ]
+  },
+  {
+    "path": "gold-blade",
+    "min": [
+      -0.488972803577781,
+      -0.3216940981760044,
+      -0.13564236858880718
+    ],
+    "max": [
+      0.488972803577781,
+      6.272915539777882,
+      0.135642130788927
+    ],
+    "mats": [
+      {
+        "name": "Claymore_1",
+        "mat": "DarkSteel",
+        "map": false,
+        "color": "7f7f75",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Claymore_2",
+        "mat": "Black",
+        "map": false,
+        "color": "2c2625",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Claymore_3",
+        "mat": "DarkBrown",
+        "map": false,
+        "color": "4c4340",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Claymore_4",
+        "mat": "LightRed",
+        "map": false,
+        "color": "b05b58",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Claymore_5",
+        "mat": "Red",
+        "map": false,
+        "color": "a0343f",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      }
+    ]
+  },
+  {
+    "path": "torch",
+    "min": [
+      -0.2233296949746507,
+      -0.5834049096346214,
+      -0.20941339534663359
+    ],
+    "max": [
+      0.23390285441062872,
+      2.1071882724170434,
+      0.20941276301243056
+    ],
+    "mats": [
+      {
+        "name": "WoodenTorch_1",
+        "mat": "DarkWood",
+        "map": false,
+        "color": "5f4b35",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "WoodenTorch_2",
+        "mat": "LightGrey",
+        "map": false,
+        "color": "959595",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "WoodenTorch_3",
+        "mat": "Yellow",
+        "map": false,
+        "color": "816c3b",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      }
+    ]
+  },
+  {
+    "path": "knife",
+    "min": [
+      -0.150971754919738,
+      -0.3096158104991171,
+      -0.05546352601291115
+    ],
+    "max": [
+      0.146198971197009,
+      1.0795824804094982,
+      0.055463525853144256
+    ],
+    "mats": [
+      {
+        "name": "Dagger_1",
+        "mat": "DarkSteel",
+        "map": false,
+        "color": "7f7f75",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Dagger_2",
+        "mat": "DarkWood",
+        "map": false,
+        "color": "402d39",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Dagger_3",
+        "mat": "LightWood",
+        "map": false,
+        "color": "63474a",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Dagger_4",
+        "mat": "LightSteel",
+        "map": false,
+        "color": "919092",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      },
+      {
+        "name": "Dagger_5",
+        "mat": "Steel",
+        "map": false,
+        "color": "5d6476",
+        "metal": 0.400000005960464,
+        "rough": 0.415087103843689
+      }
+    ]
+  },
+  {
+    "path": "pine",
+    "min": [
+      -2.89195823669434,
+      -0.23508881741839596,
+      -2.6936984625594227
+    ],
+    "max": [
+      2.83612656593323,
+      7.1411494828959645,
+      2.5275091838417585
+    ],
+    "mats": [
+      {
+        "name": "Pine_2_1",
+        "mat": "Bark_NormalTree",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0.400000005960464,
+        "rough": 1
+      },
+      {
+        "name": "Pine_2_2",
+        "mat": "Leaves_Pine",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0.400000005960464,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/tool-axe",
+    "min": [
+      -0.07331643998622894,
+      0,
+      -0.015463500283658504
+    ],
+    "max": [
+      0.04116937518119812,
+      0.25599998235702515,
+      0.015463500283658504
+    ],
+    "mats": [
+      {
+        "name": "tool-axe_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/tool-axe-upgraded",
+    "min": [
+      -0.07331643998622894,
+      0,
+      -0.019999999552965164
+    ],
+    "max": [
+      0.07331643998622894,
+      0.25599998235702515,
+      0.019999999552965164
+    ],
+    "mats": [
+      {
+        "name": "tool-axe-upgraded_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/tool-pickaxe",
+    "min": [
+      -0.08930414170026779,
+      0,
+      -0.019349999725818634
+    ],
+    "max": [
+      0.08930414170026779,
+      0.24000000953674316,
+      0.019349999725818634
+    ],
+    "mats": [
+      {
+        "name": "tool-pickaxe_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/tool-shovel",
+    "min": [
+      -0.03546350076794624,
+      0,
+      -0.015463500283658504
+    ],
+    "max": [
+      0.03546350076794624,
+      0.28999999165534973,
+      0.015463500283658504
+    ],
+    "mats": [
+      {
+        "name": "tool-shovel_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/tree",
+    "min": [
+      -0.28127700090408325,
+      0,
+      -0.26311829686164856
+    ],
+    "max": [
+      0.2715809941291809,
+      1.4109718799591064,
+      0.26311829686164856
+    ],
+    "mats": [
+      {
+        "name": "tree_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/tree-tall",
+    "min": [
+      -0.28127700090408325,
+      0,
+      -0.26311829686164856
+    ],
+    "max": [
+      0.2715809941291809,
+      1.7109718322753906,
+      0.26311829686164856
+    ],
+    "mats": [
+      {
+        "name": "tree-tall_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/tree-log",
+    "min": [
+      -0.12208196520805359,
+      -0.10565509647130966,
+      -0.5
+    ],
+    "max": [
+      0.12740518152713776,
+      0.17148177325725555,
+      0.5
+    ],
+    "mats": [
+      {
+        "name": "tree-log_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/rock-a",
+    "min": [
+      -0.30000001192092896,
+      0,
+      -0.29711586236953735
+    ],
+    "max": [
+      0.2551817297935486,
+      0.3926999866962433,
+      0.3244633674621582
+    ],
+    "mats": [
+      {
+        "name": "rock-a_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/rock-b",
+    "min": [
+      -0.3783840537071228,
+      -1.3394841385025577e-16,
+      -0.35494133830070496
+    ],
+    "max": [
+      0.45625802874565125,
+      0.41860800981521606,
+      0.3697664737701416
+    ],
+    "mats": [
+      {
+        "name": "rock-b_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/chest",
+    "min": [
+      -0.13019999861717224,
+      0,
+      -0.14182500541210175
+    ],
+    "max": [
+      0.13019999861717224,
+      0.2571914936702881,
+      0.13019999861717224
+    ],
+    "mats": [
+      {
+        "name": "chest_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      },
+      {
+        "name": "lid",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/workbench",
+    "min": [
+      -0.14782623946666718,
+      0,
+      -0.14782623946666718
+    ],
+    "max": [
+      0.1778262541669356,
+      0.2865906809151173,
+      0.14782623946666718
+    ],
+    "mats": [
+      {
+        "name": "workbench_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      },
+      {
+        "name": "paper",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      },
+      {
+        "name": "hammer",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/campfire-pit",
+    "min": [
+      -0.1388842910528183,
+      0,
+      -0.1346159130334854
+    ],
+    "max": [
+      0.1388842910528183,
+      0.10906548235588455,
+      0.1346159130334854
+    ],
+    "mats": [
+      {
+        "name": "campfire-pit_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      },
+      {
+        "name": "wood",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  },
+  {
+    "path": "kenney/structure",
+    "min": [
+      -0.2499999850988388,
+      0,
+      -0.25
+    ],
+    "max": [
+      0.25,
+      0.5,
+      0.2499999850988388
+    ],
+    "mats": [
+      {
+        "name": "structure_1",
+        "mat": "colormap",
+        "map": true,
+        "color": "ffffff",
+        "metal": 0,
+        "rough": 1
+      }
+    ]
+  }
+]

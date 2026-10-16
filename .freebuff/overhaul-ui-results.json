@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "name": "UI ammunition recipe produces six arrows with exact costs",
+      "ok": true
+    },
+    {
+      "name": "physical boss material has meaningful craft output",
+      "ok": true
+    },
+    {
+      "name": "native armor drag equips appropriate slot",
+      "ok": true
+    },
+    {
+      "name": "native unequip returns armor exactly once",
+      "ok": true
+    },
+    {
+      "name": "main-hand UI stows actual active bow",
+      "ok": true
+    },
+    {
+      "name": "bow enters visible draw phase without consuming ammo early",
+      "ok": true
+    },
+    {
+      "name": "draw does not fire prematurely",
+      "ok": true
+    },
+    {
+      "name": "draw completes with one projectile and one ammo cost",
+      "ok": true
+    },
+    {
+      "name": "husk real independent rig fast pursuit and telegraph",
+      "ok": true
+    },
+    {
+      "name": "husk attack windup is readable before damage",
+      "ok": true
+    },
+    {
+      "name": "boss remains with unique death sequence before core release",
+      "ok": true
+    },
+    {
+      "name": "UI tests no page errors",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

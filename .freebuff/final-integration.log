@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "name": "torch flame above wooden grip",
+      "ok": true,
+      "data": [
+        {
+          "name": "DarkWood",
+          "emissive": 1,
+          "bounds": [
+            -0.005246109425120313,
+            0.564919851682919,
+            9.937398999862457e-8
+          ]
+        },
+        {
+          "name": "LightGrey",
+          "emissive": 1,
+          "bounds": [
+            6.938893903907228e-18,
+            1.0346098323808497,
+            -1.3877787807814457e-17
+          ]
+        },
+        {
+          "name": "Yellow",
+          "emissive": 1.5,
+          "bounds": [
+            0.001067418842588267,
+            1.0691272565915746,
+            0.000423955949780893
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tom custom rig retained",
+      "ok": true,
+      "data": {
+        "rigged": true
+      }
+    },
+    {
+      "name": "Tom connects through blade combat dispatch",
+      "ok": true,
+      "data": {
+        "before": 180,
+        "after": 156
+      }
+    },
+    {
+      "name": "Tom rig mixer updates",
+      "ok": true
+    },
+    {
+      "name": "Tom banishment clears singleton and rewards gold",
+      "ok": true
+    },
+    {
+      "name": "deer supplied hit clip active",
+      "ok": true
+    },
+    {
+      "name": "deer supplied gallop active while fleeing",
+      "ok": true
+    },
+    {
+      "name": "deer supplied death clip active",
+      "ok": true
+    },
+    {
+      "name": "no captured integration errors",
+      "ok": true,
+      "data": []
+    }
+  ],
+  "errors": []
+}

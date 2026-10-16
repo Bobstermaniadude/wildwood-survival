@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tompearl",
+  "version": "${version}",
+  "name": "Tom Pearl — The Gilded Man",
+  "description": "Adds Tom Pearl, a floating gilded upper-body boss with 40 hearts who hunts you every 10 in-game nights. He has run and attack animations on a full rig, deals 10 hearts of damage, and is very hard to kill.",
+  "authors": ["GREENROOM"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tompearl.TomPearlMod"],
+    "client": ["com.tompearl.client.TomPearlClient"]
+  },
+  "mixins": ["tompearl.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

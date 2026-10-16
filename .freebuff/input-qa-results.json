@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "name": "user click captures pointer and resumes audio",
+      "ok": true
+    },
+    {
+      "name": "pointer release pauses and shows cursor",
+      "ok": true
+    },
+    {
+      "name": "resume button recaptures pointer",
+      "ok": true
+    },
+    {
+      "name": "WASD moves player",
+      "ok": true
+    },
+    {
+      "name": "crafting releases pointer and pauses",
+      "ok": true
+    },
+    {
+      "name": "build menu enters explicit placement mode",
+      "ok": true
+    },
+    {
+      "name": "build rotation key",
+      "ok": true
+    },
+    {
+      "name": "graphics settings remain functional",
+      "ok": true
+    },
+    {
+      "name": "death/restart resets run",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

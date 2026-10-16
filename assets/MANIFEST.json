@@ -1,0 +1,21 @@
+{
+  "direction": "Muted stylized wilderness horror; weathered olive cloth, hide, rough stone, ash wood and restrained aged gold.",
+  "existing_manifest": "CREDITS.md",
+  "assets": [
+    {"name":"Rigged survivor","creator":"Kenney","source":"https://kenney.nl/assets/animated-characters-survivors","license":"CC0-1.0","license_file":"models/survivors-LICENSE.txt","path":"models/survivor.glb","modifications":"Converted characterMedium.fbx with survivorMaleB atlas; idle/run FBX clips exported to GLB; normalized to player scale; palette muted at load."},
+    {"name":"Rigged husk","creator":"Kenney","source":"https://kenney.nl/assets/animated-characters-survivors","license":"CC0-1.0","license_file":"models/survivors-LICENSE.txt","path":"models/husk.glb","modifications":"Same compatible rig with zombieA textured skin, muted gray-olive materials, reduced head scale, slimmer silhouette, procedural attack and death supplement. Longest actual idle/run clips selected."},
+    {"name":"Ash bow","creator":"Original Wildwood rework asset","source":"../.freebuff/convert-survivors.html","license":"CC0-1.0 for this original generated addition","path":"models/bow.glb","modifications":"Authored curved indexed tube, wrapped grip and taut string; first-person normalization."},
+    {"name":"Meat pickup","creator":"Original Wildwood rework asset","source":"../.freebuff/convert-survivors.html","license":"CC0-1.0 for this original generated addition","path":"models/meat-loot.glb","modifications":"Original muted meat cut and bone, local materials."},
+    {"name":"Hide pickup","creator":"Original Wildwood rework asset","source":"../.freebuff/convert-survivors.html","license":"CC0-1.0 for this original generated addition","path":"models/hide-loot.glb","modifications":"Original irregular extruded hide silhouette."},
+    {"name":"Fiber pickup","creator":"Original Wildwood rework asset","source":"../.freebuff/convert-survivors.html","license":"CC0-1.0 for this original generated addition","path":"models/fiber-loot.glb","modifications":"Original rolled salvaged-cloth bundle."},
+    {"name":"Pearl Core","creator":"Original Wildwood rework asset","source":"../.freebuff/convert-survivors.html","license":"CC0-1.0 for this original generated addition","path":"models/pearl-core.glb","modifications":"Original pearl nested in three weathered gold rings."},
+    {"name":"47 illustrated item/equipment/build/action icons","creator":"Original Wildwood rework asset","source":"../.freebuff/make-icons.py","license":"CC0-1.0 for this original generated addition","path":"icons/*.svg","modifications":"Original unified 64-unit SVG family, consistent stroke/palette, accessible titles; no emojis."},
+    {"name":"Armor preview shells and arrow projectile","creator":"Original Wildwood rework geometry","source":"../items.js; ../combat.js","license":"CC0-1.0 for this original generated addition","path":"runtime cached/generated geometry","modifications":"Fitted modular armor shells use existing licensed Poly Haven maps; arrow shaft, flint tip and feathers; physics independent of rendering."}
+  ],
+  "investigated_not_integrated": [
+    {"source":"https://poly.pizza/m/jkrEvQZb8J","reason":"Mirror lists Creative Commons Attribution, unlike original Quaternius pack CC0. Avoided mismatched license assumption; compatible Kenney rig chosen."},
+    {"source":"https://poly.pizza/m/QnpqjLSKFU","reason":"CC0 wooden bow candidate, but download browser hit Cloudflare challenge. Original compatible local bow authored instead."},
+    {"source":"https://kenney-assets.itch.io/animated-characters-3","reason":"Official current Kenney Survivors pack provides compatible survivor and zombie skins in one verified CC0 family."}
+  ],
+  "retained": "Existing 25 model types and Poly Haven maps retain source/license records in CREDITS.md. Tom Pearl is user-provided; no new license is claimed for him. Three.js remains MIT."
+}

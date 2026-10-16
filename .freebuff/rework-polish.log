@@ -1,0 +1,97 @@
+Pack open, capture released
+{
+  "checks": [
+    {
+      "name": "hardware-style Escape closes pack",
+      "ok": true
+    },
+    {
+      "name": "Escape closes field crafting",
+      "ok": true
+    },
+    {
+      "name": "pause/resume restores simulation",
+      "ok": true
+    },
+    {
+      "name": "workshop 2-column layout",
+      "ok": true
+    },
+    {
+      "name": "WASD input moves actual player",
+      "ok": true
+    },
+    {
+      "name": "fallback drag applies look",
+      "ok": true
+    },
+    {
+      "name": "husk cannot cross player-built wall",
+      "ok": true
+    },
+    {
+      "name": "blocked enemy still damages barricade",
+      "ok": true
+    },
+    {
+      "name": "husk chase ends outside solid POI",
+      "ok": true
+    },
+    {
+      "name": "60 torch cycles conserve resources/scene/lights",
+      "ok": true
+    },
+    {
+      "name": "remesh near protected tree preserves identity",
+      "ok": true
+    },
+    {
+      "name": "digging near tree rejected",
+      "ok": true
+    },
+    {
+      "name": "pick efficiency applies to ore not axe chop",
+      "ok": true,
+      "data": {
+        "hpBefore": 15,
+        "hpAfter": 11,
+        "targetType": "ore",
+        "targetMatches": true
+      }
+    },
+    {
+      "name": "crawler stays on cave floor while player is underground",
+      "ok": true
+    },
+    {
+      "name": "crawler does not teleport to surface when player exits",
+      "ok": true
+    },
+    {
+      "name": "save inside cave retains underground position",
+      "ok": true
+    },
+    {
+      "name": "continue inside cave does not eject to surface",
+      "ok": true
+    },
+    {
+      "name": "representative medium preset measured",
+      "ok": true,
+      "data": {
+        "simulationMs": 0.6060000002384186,
+        "renderMs": 92.85999999642372,
+        "remeshMs": 10.025,
+        "calls": 153,
+        "triangles": 61058,
+        "quality": "medium"
+      }
+    },
+    {
+      "name": "no console errors during polish flows",
+      "ok": true,
+      "data": []
+    }
+  ],
+  "errors": []
+}

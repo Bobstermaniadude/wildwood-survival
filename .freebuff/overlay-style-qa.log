@@ -1,0 +1,84 @@
+{
+  "checks": [
+    {
+      "name": "field overlay painted",
+      "ok": true,
+      "data": {
+        "hidden": false,
+        "display": "flex",
+        "opacity": "1",
+        "z": "56",
+        "w": 1280,
+        "h": 720,
+        "innerOpacity": "1",
+        "visible": true
+      }
+    },
+    {
+      "name": "field title+rows correct",
+      "ok": true,
+      "data": [
+        "✊  FISTS",
+        "🏏  WOOD CLUB",
+        "🪓  WOOD AXE",
+        "⛏️  STONE PICKAXE",
+        "🔥  TORCH",
+        "Field dressing"
+      ]
+    },
+    {
+      "name": "bench overlay painted",
+      "ok": true,
+      "data": {
+        "hidden": false,
+        "display": "flex",
+        "opacity": "1",
+        "z": "56",
+        "w": 1280,
+        "h": 720,
+        "innerOpacity": "1",
+        "visible": true
+      }
+    },
+    {
+      "name": "bench title+advanced correct",
+      "ok": true,
+      "data": [
+        "✊  FISTS",
+        "🏏  WOOD CLUB",
+        "🪓  WOOD AXE",
+        "⛏️  STONE PICKAXE",
+        "🔥  TORCH",
+        "Field dressing",
+        "🪓  STONE AXE",
+        "⚔️  STONE SWORD",
+        "🗡️  IRON BLADE",
+        "✦  GOLD BLADE",
+        "Hide-lined armor"
+      ]
+    },
+    {
+      "name": "inventory overlay painted",
+      "ok": true,
+      "data": {
+        "hidden": false,
+        "display": "flex",
+        "opacity": "1",
+        "z": "50",
+        "w": 1280,
+        "h": 720,
+        "innerOpacity": "1",
+        "visible": true
+      }
+    },
+    {
+      "name": "inventory title+7 rows",
+      "ok": true,
+      "data": {
+        "title": "WHAT YOU CARRY",
+        "rows": 7
+      }
+    }
+  ],
+  "errors": []
+}

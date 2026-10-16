@@ -1,0 +1,254 @@
+{
+  "checks": [
+    {
+      "name": "25 local models and textures load",
+      "ok": true
+    },
+    {
+      "name": "C opens field crafting",
+      "ok": true
+    },
+    {
+      "name": "UI craft deducts once and equips club",
+      "ok": true
+    },
+    {
+      "name": "I opens independent pack",
+      "ok": true
+    },
+    {
+      "name": "inventory includes soil and equipped gear",
+      "ok": true
+    },
+    {
+      "name": "inventory freezes simulation",
+      "ok": true
+    },
+    {
+      "name": "near bench C remains field",
+      "ok": true
+    },
+    {
+      "name": "field cannot craft advanced gear even near bench",
+      "ok": true
+    },
+    {
+      "name": "bench layout has only advanced recipes",
+      "ok": true
+    },
+    {
+      "name": "bench craft exactly once",
+      "ok": true
+    },
+    {
+      "name": "construction placement deducts exactly once",
+      "ok": true
+    },
+    {
+      "name": "repeat placement cannot duplicate structure",
+      "ok": true
+    },
+    {
+      "name": "dismantle refunds policy once",
+      "ok": true
+    },
+    {
+      "name": "all ten equipment viewmodels distinct",
+      "ok": true,
+      "data": [
+        "club",
+        "axe",
+        "pick",
+        "stoneAxe",
+        "sword",
+        "iron",
+        "gold",
+        "shovel",
+        "knife",
+        "torch"
+      ]
+    },
+    {
+      "name": "weapon timing/reach/stamina differ",
+      "ok": true
+    },
+    {
+      "name": "tree harvest through equipped tool dispatch",
+      "ok": true
+    },
+    {
+      "name": "rock harvest through equipped tool dispatch",
+      "ok": true
+    },
+    {
+      "name": "pig damage dispatch",
+      "ok": true,
+      "data": 8
+    },
+    {
+      "name": "pig real rig and flee",
+      "ok": true
+    },
+    {
+      "name": "pig independent skeleton",
+      "ok": true
+    },
+    {
+      "name": "pig death drop and cleanup",
+      "ok": true
+    },
+    {
+      "name": "deer damage dispatch",
+      "ok": true,
+      "data": 8
+    },
+    {
+      "name": "deer real rig and flee",
+      "ok": true
+    },
+    {
+      "name": "deer independent skeleton",
+      "ok": true
+    },
+    {
+      "name": "deer death drop and cleanup",
+      "ok": true
+    },
+    {
+      "name": "husk damage dispatch",
+      "ok": true,
+      "data": 14
+    },
+    {
+      "name": "husk death/drop",
+      "ok": true
+    },
+    {
+      "name": "crawler damage dispatch",
+      "ok": true,
+      "data": 6
+    },
+    {
+      "name": "crawler death/drop",
+      "ok": true
+    },
+    {
+      "name": "valid reachable excavation patch exists",
+      "ok": true
+    },
+    {
+      "name": "shovel dig through action creates soil",
+      "ok": true
+    },
+    {
+      "name": "terrain remesh preserves prop identities and HP",
+      "ok": true
+    },
+    {
+      "name": "insufficient soil leaves terrain unchanged",
+      "ok": true
+    },
+    {
+      "name": "refill consumes soil and restores surface",
+      "ok": true
+    },
+    {
+      "name": "repeated aimed digging respects reach and cannot farm depleted ray",
+      "ok": true,
+      "data": {
+        "depth": 1.1883213051811377,
+        "capped": 5
+      }
+    },
+    {
+      "name": "bounded depth/slope rejects further scoops without rewards",
+      "ok": true,
+      "data": {
+        "stopReason": "Ground is too steep",
+        "depth": 1.4283213051811376
+      }
+    },
+    {
+      "name": "chunk revisit retains terrain and stable prop anchors",
+      "ok": true
+    },
+    {
+      "name": "boundary edit keeps both chunk identities",
+      "ok": true
+    },
+    {
+      "name": "torch aiming identifies exact model",
+      "ok": true
+    },
+    {
+      "name": "specific torch dismantled without stale light",
+      "ok": true
+    },
+    {
+      "name": "torch cycle conserves wood and lights",
+      "ok": true
+    },
+    {
+      "name": "torch limit rejects without deduction/removing old",
+      "ok": true
+    },
+    {
+      "name": "shared POI collision pushes out solid scenery",
+      "ok": true
+    },
+    {
+      "name": "discoverable survey mine exists",
+      "ok": true
+    },
+    {
+      "name": "enter cave via actual use action",
+      "ok": true
+    },
+    {
+      "name": "cave allocates nearby light and ore",
+      "ok": true
+    },
+    {
+      "name": "return to surface via ladder",
+      "ok": true
+    },
+    {
+      "name": "save v3 persists soil, all terrain and torch Y",
+      "ok": true
+    },
+    {
+      "name": "SAVE RELOAD CONTINUE restores inventory terrain structures torches",
+      "ok": true
+    },
+    {
+      "name": "malformed quantities sanitize safely",
+      "ok": true
+    },
+    {
+      "name": "v2 migration preserves old terrain and torch slot",
+      "ok": true
+    },
+    {
+      "name": "death releases input and shows death screen",
+      "ok": true
+    },
+    {
+      "name": "restart clears world edits and resets soil",
+      "ok": true
+    },
+    {
+      "name": "audio dig fill blade implementations exercised",
+      "ok": true
+    },
+    {
+      "name": "no JS console/network failures",
+      "ok": true,
+      "data": {
+        "errors": [],
+        "failedRequests": []
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}
